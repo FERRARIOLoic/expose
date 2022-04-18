@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    height: 98%;
+    font: 1.2em "Roboto", Roboto;
+}
+
+.fontTitle {
+    font: 1.2em "Redacted Script", Redacted Script;
+    font-size: xx-large;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 2px solid #00A1C4; */
+    border-radius: 15px;
+    width: 100%;
+    height: 15%;
+    /* background-color:pink; */
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 82%;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 2px solid #00A1C4; */
+    border-radius: 15px;
+    height: 2%;
+}
+
+/* CLASS HEADER */
+
+.divLogo {
+    width: 100%;
+    height: 95%;
+    /* background-color: blue; */
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.logo {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.titleSite {
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    font-style: italic;
+}
+
+.pSommaire {
+    font-size: 50px;
+}
+
+.titleSite:hover {
+    font: 1.2em "Roboto", Roboto;
+}
+
+/* FIN CLASS HEADER */
+
+
+/* CLASS INDEX */
+@keyframes indexAccueil {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.indexAccueil {
+    animation: indexAccueil 5s ease 1 normal forwards;
+}
+
+@keyframes sansNumerique {
+    0% {
+        transform: scale(0);
+        transform-origin: 0% 50%;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 0% 50%;
+    }
+}
+
+@keyframes sansNumerique2 {
+    0% {
+        transform: scale(0);
+        transform-origin: 0% 50%;
+    }
+
+    100% {
+        transform: scale(1);
+        transform-origin: 0% 50%;
+    }
+}
+
+.sansNumerique {
+    animation: sansNumerique 3s ease 1s 1 normal both;
+}
+
+.sansNumerique2 {
+    animation: sansNumerique2 3s ease 3s 1 normal both;
+}
+
+.sansNumerique3 {
+    animation: sansNumerique2 3s ease 5s 1 normal both;
+}
+
+.sansNumerique4 {
+    animation: sansNumerique2 3s ease 7s 1 normal both;
+}
+
+.sansNumerique5 {
+    animation: sansNumerique2 3s ease 1s 1 normal both;
+}
+
+.sansNumerique6 {
+    animation: sansNumerique2 3s ease 11s 1 normal both;
+}
+
+.sansNumerique7 {
+    animation: sansNumerique2 3s ease 13s 1 normal both;
+}
+
+.sansNumerique8 {
+    animation: sansNumerique2 3s ease 16s 1 normal both;
+}
+
+/* MISE EN PAGE A P H1... */
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #0597E4;
+}
+
+a:visited {
+    color: #0597E4;
+}
+
+a:hover {
+    /* background: lightblue; */
+}
+
+/* END MISE EN PAGE A P H1... */
+
+/* CLASS MAIN */
+.blockSommaire {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.blockSommaire2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.blockDatesCles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.blockDatesCles2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.blockEsante {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    /* background-image: url("/assets/img/sante_en_main.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; */
+    /* background-color: aqua; */
+}
+
+.blockEsante2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+@keyframes evolutionAnimate {
+    0% {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.evolutionAnimate {
+    flex: 1;
+}
+
+.evolutionAnimate1 {
+    animation: evolutionAnimate 1s ease 3s 1 normal both;
+}
+
+.evolutionAnimate2 {
+    animation: evolutionAnimate 1s ease 5s 1 normal both;
+}
+
+.evolutionAnimate3 {
+    animation: evolutionAnimate 1s ease 7s 1 normal both;
+}
+
+.evolutionAnimate4 {
+    animation: evolutionAnimate 1s ease 9s 1 normal both;
+}
+
+.evolutionAnimate5 {
+    animation: evolutionAnimate 1s ease 11s 1 normal both;
+}
+
+.evolutionAnimate6 {
+    animation: evolutionAnimate 1s ease 13s 1 normal both;
+}
+
+.evolutionAnimate7 {
+    animation: evolutionAnimate 1s ease 15s 1 normal both;
+}
+
+.evolutionAnimate8 {
+    animation: evolutionAnimate 1s ease 17s 1 normal both;
+}
+
+.evolutionAnimate9 {
+    animation: evolutionAnimate 1s ease 19s 1 normal both;
+}
+
+.evolutionAnimate10 {
+    animation: evolutionAnimate 1s ease 21s 1 normal both;
+}
+
+.evolutionAnimate11 {
+    animation: evolutionAnimate 1s ease 23s 1 normal both;
+}
+
+.evolutionAnimate12 {
+    animation: evolutionAnimate 1s ease 25s 1 normal both;
+}
+
+.evolutionAnimate13 {
+    animation: evolutionAnimate 1s ease 27s 1 normal both;
+}
+
+@keyframes dateClesAnimate {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sansNumeriqueMedecin {
+    max-height: 450px;
+    margin: 15px;
+}
+
+.dateClesAnimate {
+    flex: 1;
+}
+
+.dateClesAnimate1 {
+    animation: dateClesAnimate 1s ease 3s 1 normal both;
+}
+
+.dateClesAnimate2 {
+    animation: dateClesAnimate 1s ease 5s 1 normal both;
+}
+
+.dateClesAnimate3 {
+    animation: dateClesAnimate 1s ease 7s 1 normal both;
+}
+
+.dateClesAnimate4 {
+    animation: dateClesAnimate 1s ease 9s 1 normal both;
+}
+
+.dateClesAnimate5 {
+    animation: dateClesAnimate 1s ease 11s 1 normal both;
+}
+
+.dateClesAnimate6 {
+    animation: dateClesAnimate 1s ease 13s 1 normal both;
+}
+
+.dateClesAnimate7 {
+    animation: dateClesAnimate 1s ease 15s 1 normal both;
+}
+
+.dateClesAnimate8 {
+    animation: dateClesAnimate 1s ease 17s 1 normal both;
+}
+
+.dateClesAnimate9 {
+    animation: dateClesAnimate 1s ease 19s 1 normal both;
+}
+
+.dateClesAnimate10 {
+    animation: dateClesAnimate 1s ease 21s 1 normal both;
+}
+
+@keyframes carteVitale {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0% 0%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 0% 0%;
+    }
+}
+
+.blockCarteVitale {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    text-align: top;
+}
+
+.carteVitale {
+    width: 70%;
+}
+
+.carteVitaleAnimate1 {
+    margin: 10px;
+    animation: carteVitale 3s ease 1s 1 normal both;
+}
+
+.carteVitaleAnimate2 {
+    margin: 10px;
+    animation: carteVitale 3s ease 3s 1 normal both;
+}
+
+.carteVitaleAnimate3 {
+    margin: 10px;
+    animation: carteVitale 3s ease 5s 1 normal both;
+}
+
+.doctolibImg {
+    width: 93%;
+}
+
+.blockDoctolib {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+.blockDoctolib2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+.blockDoctolib3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.width50{
+    width:50%;
+}
+.width100{
+    width:100%;
+}
+.msanteImg{ 
+    height:100%;
+    text-align: center;
+}
+.santeFuturtImg{ 
+    width:70%;
+    border-radius:100px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.blockDoctolibGraph {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    margin:10px;
+    /* background-color: aqua; */
+} 
+.doctolibGraphImg{
+    width:80%;
+    margin: 15px;
+    text-align:center;
+}
+.doctolibGraphTxt{
+    text-align:center;
+}
+.doctolibGraph {
+    width: 100%;
+}
+
+/* FIN CLASS MAIN */
+
+
+
+/* CLASS ANIMATE */
+@keyframes sommaire {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes sommaire2 {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+.animate0 {
+    animation: sommaire 1s ease 1s 1 normal both;
+}
+
+.animate1 {
+    animation: sommaire2 1s ease 3s 1 normal both;
+}
+
+.animate2 {
+    animation: sommaire2 1s ease 4s 1 normal both;
+}
+
+.animate3 {
+    animation: sommaire2 1s ease 5s 1 normal both;
+}
+
+.animate4 {
+    animation: sommaire2 1s ease 6s 1 normal both;
+}
+
+.animate5 {
+    animation: sommaire2 1s ease 7s 1 normal both;
+}
+
+.animate6 {
+    animation: sommaire2 1s ease 8s 1 normal both;
+}
+
+.animate7 {
+    animation: sommaire2 1s ease 9s 1 normal both;
+}
+
+.animate8 {
+    animation: sommaire2 1s ease 10s 1 normal both;
+}
+
+.animate9 {
+    animation: sommaire2 1s ease 11s 1 normal both;
+}
+
+.animate10 {
+    animation: sommaire2 1s ease 12s 1 normal both;
+}
+
+.animate11 {
+    animation: sommaire2 1s ease 13s 1 normal both;
+}
+
+.animate12 {
+    animation: sommaire2 1s ease 14s 1 normal both;
+}
+
+.animate13 {
+    animation: sommaire2 1s ease 15s 1 normal both;
+}
+
+.animate14 {
+    animation: sommaire2 1s ease 16s 1 normal both;
+}
+
+.animate15 {
+    animation: sommaire2 1s ease 17s 1 normal both;
+}
+
+.animate16 {
+    animation: sommaire2 1s ease 18s 1 normal both;
+}
+
+.animate17 {
+    animation: sommaire2 1s ease 19s 1 normal both;
+}
+
+
+/* CLASS FOOTER */
+.copyright {
+    width: 50%;
+    font-size: x-small;
+    font-style: italic;
+}
+
+.copyrightYear {
+    width: 50%;
+    font-size: x-small;
+    font-style: italic;
+}
+
+/* FIN CLASS FOOTER */
+
+.annexe {
+    font-size: medium;
+    margin: 20px 20px 20px 20px;
+}
+
+
+
+.blockColumn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+
+.blockRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+}
+
+.blockColumnMsante {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.blockRowMsante {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.height30px {
+    height: 28px;
+}
+
+.height40px {
+    height: 40px;
+}
+
+.height50px {
+    height: 50px;
+}
+
+.height60px {
+    height: 60px;
+}
+
+.height70px {
+    height: 70px;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.txtAlignLeft {
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-self: left;
+}
+
+.txtAlignCenter {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.txtAlignRight {
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    align-self: right;
+}
+
+.width50 {
+    width: 50%;
+}
