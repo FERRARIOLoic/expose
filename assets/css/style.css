@@ -159,13 +159,20 @@ a {
 }
 
 a:link {
-    color: #0597E4;
+    color: #017E9E;
 }
 
 a:visited {
-    color: #0597E4;
+    color: #017E9E;
 }
-
+.aFont{
+    font-size: xx-large;
+    color: #017E9E;
+}
+.aFontBlack{
+    font-size: xx-large;
+    color: black;
+}
 a:hover {
     /* background: lightblue; */
 }
@@ -315,8 +322,8 @@ a:hover {
 }
 
 .sansNumeriqueMedecin {
-    max-height: 450px;
-    margin: 15px;
+    height:80vh;
+    margin:10px;
 }
 
 .dateClesAnimate {
